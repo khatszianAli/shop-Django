@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block body %}
+    <h1> Delete product</h1>
+    <form method="post">
+        {% csrf_token %}
+
+        <button class = "btn btn-success" type = "submit">Delete product </button><br>
+    </form>
+
+{% endblock %}

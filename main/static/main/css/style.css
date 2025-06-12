@@ -1,0 +1,247 @@
+body{
+	margin-bottom: 0px;
+}
+.body h1, h3, h4{
+	font-weight: normal;
+}
+.body{
+	font-family: Arial;
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	margin: 40px;
+}
+.logo a{
+	text-decoration: none;
+	color: #505050FF;
+}
+.logo ul{
+	float: right;
+	margin-left: 400px;
+	margin-top: -20px;
+}
+.logo li{
+	display: inline-block;
+	margin-left: 20px;
+	color: #505050FF;
+}
+.logo li:hover{
+	text-decoration: underline;
+}
+.header-top{
+	background-image: url(../img/bg.jpg);
+	padding: 250px;
+	color: #4C4E4DFF;
+	font-size: 14px;
+	text-align: center;
+
+}
+.header-top h1{
+	font-size: 30px;
+}
+.header-top a{
+	color: white;
+	font-size: 15px;
+	border: 2px solid #505050FF;
+	border-radius: 25px;
+	background-color: #505050FF;
+	padding: 10px 45px;
+
+}
+#o1, #o2, #o3{
+	float: left;
+	width: 300px;
+	text-align: center;
+	font-size: 13px;
+	margin: 90px 13px;
+	color: #ACACACFF;
+}
+#o1 h3, #o2 h3, #o3 h3{
+	color: #4C4C4CFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content-top h3{
+	font-weight: bold;
+	font-size: 26px;
+	color: #4C4C4CFF;
+	margin-bottom: 10px;
+	width: 600px;
+}
+.content-top{
+	margin-left: 200px;
+	width: 550px;
+	text-align: center;
+	color: #ACACACFF;
+	font-size: 14px;
+}
+.line{
+	width: 1000px;
+	margin-left: -200px;
+
+}
+
+#play{
+	margin-top: 70px;
+	background-image: url(../img/video.jpg);
+	padding: 140px 240px;
+	margin-bottom: 0px;
+}
+.content-brand h4{
+	color: #4C4C4CFF;
+	text-align: center;
+	font-size: 26px;
+	margin: 50px 0px;
+}
+.content-brand img{
+	float: left;
+	width: 200px;
+	margin-right: 50px;
+	margin-bottom: -30px;
+}
+.content-brand a{
+	color: white;
+	font-size: 15px;
+	border: 2px solid #505050FF;
+	background-color: #505050FF;
+	padding: 10px 45px;
+	margin-left: 350px;
+}
+#b1{
+	color: white;
+	float: none;
+	width: 15px;
+	margin-right: 0px;
+}
+.content-brand{
+	margin-bottom: 100px;
+}
+.content-under h3{
+	color: #4D4D4DFF;
+	text-align: center;
+	font-size: 26px;
+
+}
+.content-under{
+	text-align: center;
+	font-size: 14px;
+	color: #ACACACFF;
+	background-color: #F5F5F5FF;
+	padding: 70px 0px;
+}
+.content-under p{
+	margin-bottom: 50px;
+}
+.content-under a{
+	border: 2px solid #4C4C4CFF;
+	border-radius: 26px;
+	padding: 10px 50px;
+	color: #4C4C4CFF;
+	font-weight: bold;
+
+}
+.footer-top{
+	margin: 70px 0px;
+	margin-left: 300px;
+}
+.footer-top  a{
+	border: 2px solid #535353FF;
+	padding: 20px 30px;
+	margin-right: 50px;
+
+}
+#l1{
+	background-image: url(../img/twitter_black.png);
+	background-repeat: no-repeat;
+
+	padding-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l1:hover{
+	background-color: #55ACEFFF;
+	border-color: #55ACEFFF;
+	background-image: url(../img/twitter_white.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l2{
+	background-image: url(../img/noname_black.png);
+	background-repeat: no-repeat;
+
+	padding-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l2:hover{
+	background-color: #55ACEFFF;
+	border-color: #55ACEFFF;
+	background-image: url(../img/noname_white.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l3{
+	background-image: url(../img/face_black.png);
+	background-repeat: no-repeat;
+
+	padding-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l3:hover{
+	background-color: #55ACEFFF;
+	border-color: #55ACEFFF;
+	background-image: url(../img/face_white.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l4{
+	background-image: url(../img/google_black.png);
+	background-repeat: no-repeat;
+
+	padding-top: 25px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#l4:hover{
+	background-color: #55ACEFFF;
+	border-color: #55ACEFFF;
+	background-image: url(../img/google_white.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.footer{
+	background-color: #3B3B3BFF;
+	height: 250px;
+	color: #D6D6D6FF;
+	font-size: 14px;
+	padding-left: 70px;
+	padding-top: 100px;
+}
+.footer th{
+	font-size: 16px;
+	color: white;
+	line-height: 20px;
+	font-weight: normal;
+	padding-right:  170px;
+	padding-bottom: 20px;
+}
+.footer td{
+	padding-right: 90px;
+	line-height: 20px;
+}
+.footer a{
+	color: #989898FF;
+}
+#t2{
+	color: #989898FF;
+}
+form {
+	width: 500px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}

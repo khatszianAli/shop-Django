@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block body %}
+    <h1> Our categories</h1>
+    <div class = 'shop'>
+        <h3>{{ category.name }}</h3>
+        <p>{{ category.description }}</p>
+        <p>{{ category.price }}</p>
+
+        <a href="{% url 'category-delete' category.id %}" class = "btn btn-danger" > Delete the Product</a>
+        <a href="{% url 'category-update' category.id %}" class = "btn btn-info" > Change the Product</a>
+
+    </div>
+{% endblock %}

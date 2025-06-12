@@ -1,0 +1,13 @@
+{% extends 'main/layout.html' %}
+
+{% block body %}
+    <h1> Our categories</h1>
+    {% for i in shop%}
+        <div class = 'shop'>
+            <h3>{{i.name}}</h3>
+            <p>{{i.description}}</p>
+            <p>{{i.price}}</p>
+            <a href ="{% url 'category-detail' i.id %}" class = 'btn btn-warning'> View more</a>
+        </div>
+    {% endfor %}
+{% endblock %}
